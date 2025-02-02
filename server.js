@@ -1,6 +1,7 @@
 import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { inject } from "@vercel/analytics"
 
 const app = express();
 const PORT = process.env.PORT || 3001;
